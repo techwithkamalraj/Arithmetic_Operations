@@ -34,10 +34,24 @@ button{
 
 /* // For Mobile Devices */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 360px) {
     .input{
         width: 75px;
         padding: 3px;
+    }
+    button{
+        padding: 0px 4px;
+        background-color: black;
+        color: white;
+        border: 1px solid #61A3BA;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .input{
+        width: 120px;
+        padding: 10px;
     }
     button{
         padding: 0px 10px;
@@ -47,5 +61,4 @@ button{
         border-radius: 5px;
     }
 }
-
 
